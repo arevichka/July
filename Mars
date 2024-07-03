@@ -1,0 +1,12 @@
+def distance_to_mars():
+    # Average distance from Earth to Mars in kilometers
+    average_distance_km = 225_000_000  # 225 million kilometers
+    
+    # Average distance from Earth to Mars in miles
+    average_distance_miles = average_distance_km * 0.621371  # Convert kilometers to miles
+    
+    return average_distance_km, average_distance_miles
+
+km, miles = distance_to_mars()
+print(f"Average distance to Mars: {km} kilometers")
+print(f"Average distance to Mars: {miles} miles")
